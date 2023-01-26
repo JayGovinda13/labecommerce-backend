@@ -1,0 +1,22 @@
+{
+  "name": "labecommerce-backend",
+  "version": "1.0.0",
+  "description": "E-commerce of Labenu",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayGovinda13/labecommerce-backend.git"
+  },
+  "keywords": ["commerce", "education", "dev"],
+  "author": "Juliano Amaral Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JayGovinda13/labecommerce-backend/issues"
+  },
+  "homepage": "https://github.com/JayGovinda13/labecommerce-backend#readme"
+}
