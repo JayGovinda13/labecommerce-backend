@@ -20,3 +20,10 @@ export type TPurchase = {
     quantity: number
     totalPrice: number
 }
+
+//categoria do produto
+export enum CATEGORY_PROD {
+    BOOKS = "Livros",
+    COMPUTERS = "Computadores",
+    CLASS = "Aulas",
+}
