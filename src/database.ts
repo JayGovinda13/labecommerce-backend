@@ -57,7 +57,7 @@ export function createUser(
 }
 
 export function getAllClients(): TClient[] {
-  return user;
+  return clients;
 }
 
 export function createProduct(
