@@ -1,15 +1,15 @@
 import { TClient, TProduct, TPurchase, CATEGORY_PROD } from "./types";
 
-export const user: TClient[] = [
+export const clients: TClient[] = [
   {
     id: "01",
-    email: "teste@email.com",
+    email: "teste@teste.com",
     password: "123456",
   },
   {
     id: "02",
-    email: "teste2@email.com",
-    password: "789012",
+    email: "teste2@teste.com",
+    password: "654321",
   },
 ];
 
@@ -17,14 +17,14 @@ export const products: TProduct[] = [
   {
     id: "01",
     name: "bananinha",
-    price: 10,
-    category: "usuario",
+    price: 20.22,
+    category: CATEGORY_PROD.ACESSORIES,
   },
   {
     id: "02",
     name: "Astrodev",
-    price: 15,
-    category: "dev",
+    price: 20.23,
+    category: CATEGORY_PROD.ELETRONICS,
   },
 ];
 
@@ -33,13 +33,13 @@ export const purchases: TPurchase[] = [
     userId: "01",
     productId: "01",
     quantity: 1,
-    totalPrice: 10,
+    totalPrice: 20.22,
   },
   {
     userId: "02",
     productId: "01",
     quantity: 2,
-    totalPrice: 20,
+    totalPrice: 40.44,
   },
 ];
 
